@@ -252,7 +252,9 @@ img {
     .top-menu.active {
         display: flex;
     }
-
+    .figures {
+        width: 100%;
+    }
     .top-menu li {
         margin: 0;
         margin-top: 5%;
