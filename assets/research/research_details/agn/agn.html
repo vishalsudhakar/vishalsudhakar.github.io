@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Vishal Sudhakar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><a href="../../../../index.html">VISHAL SUDHAKAR</a></h1>
+            
+            <div class="mobile-menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="top-menu">
+                <li><a href="../../research.html" class="current-page">research</a></li>
+                <li><a href="../../../paintings/paintings.html">paintings</a></li>
+                <li><a href="../../../information/information.html">information</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="sub-section">
+                <div class="sub-section-content">
+                    <h2>"SOFT EXCESS" IN X-RAY SPECTRUM OF ACTIVE GALATIC NUCLEI</h2>
+                    <h3>Project Under Dr. David Ballantyne</h3>
+
+                    <div class="parag1">
+                        <p>Active Galactic Nuclei (AGNs) are compact and highly energetic regions at the center of galaxies, powered by the accretion of material onto supermassive black holes.
+                            AGNs are characterized by their intense emission of various forms of radiation, including X-rays, ultraviolet, visible light, and radio waves. 
+                            They are also known for their production of powerful jets of particles and radiation, which can extend for thousands of light years. AGNs can be classified into different types,
+                            such as Seyfert galaxies, quasars, and blazars, based on their luminosity and characteristics. Among these emissions, X-rays are particularly important as they allow scientists to 
+                            probe the innermost regions near the supermassive black hole. Studying AGNs is essential for understanding extreme astrophysical processes, the evolution of supermassive black holes, 
+                            and the AGNs' impact on their host galaxies. <br><br>
+    
+                        </p>
+                    </div>
+                    <div class="figures">
+                    <div class="image-container">
+                        <div class="image-wrapper">
+                            <img src="./images/agn_model_plot.pdf" alt="Image Description">
+                        </div>
+                        <div class="image-wrapper">
+                            <img src="./images/agn_model_plot2.pdf" alt="Image Description">
+                        </div>
+                        <div class="image-wrapper">
+                            <img src="./images/agn_model_plot3.pdf" alt="Image Description">
+                        </div>
+                        
+                    </div>
+                    <div class="caption"><p>Examples of X-ray spectrum for three different AGNs, Mrk279, Mrk335, and UGC3973. The dotted lines represent a reflection model, Xillver. 
+                        The dashed lines is the underlying power-law of the spectrum and vertical dashed lines are zero-width Gaussians representing abosorption lines. 
+                        The dot-dashed line is the reXcor model. These components combine to form the complete spectrum plotted in solid black line.
+                    </p></div>
+                    </div> 
+                    <div class ="parag2">
+                        <p>
+                            An unique feature of the X-ray spectrum is the “soft excess”, an excess of emission at energies less than 2 keV. The shape of the "soft excess" is directly connected to the atomic
+                            processes and properties of the accretion disc. Hence, formulating a model that correctly predicts features of the X-ray spectrum allows us to understand the underlying physics of
+                            these fascinating objects millions of light years away. <br><br>
+                            As part of this project, I performed numerical calculations written using python and its necessary packages to extend the range of the reXcor model formulated by <a href="https://doi.org/10.1093/mnras/stac1646" class="link">Xiang et al</a>. The reXcor combines two 
+                            primary models, the warm corona model and the ionized relativistic reflection model, together to describe the “soft excess” in the X-ray spectrum of AGNs. A total of 8 model grids were created for various model parameters, and black hole properties, such as spin. 
+                            I used the created model grids and Xspec, an X-ray spectral fitting package, to fit the reXcor model to 32 XMM-Newton observation for type-I AGNs.<br><br>
+                
+                            A few examples of the X-ray spectra with their model fits for type-I AGNs are shown above. Each line in the plot represents an unique component that describes the X-ray spectrum of AGNs and the shape of the lines are dictated by its model parameters. 
+                            In the Mrk279's spectrum, the dashed line is a power-law that captures the shape of the spectrum and the dotted is the reflection model called Xiller that describes the reflection hump and Fe-line. The dot-dashed line is the reXcor model. 
+                            Finally, the vertical dashed line is zero-width gaussian that models absorptions lines. These absorption lines are often specific to each AGN and tell us about the composition accretion disk. The reXcor model parameters which arise from these fits 
+                            allows us to extropolate relationships between different properties of the AGNs. An analysis of these relationships shows that the "soft excess" can be well described through a combination of relativistic reflection and a warm corona.<br><br>
+                
+                            We are curently writing a paper illustrating our findings which will be published in Monthly Notices of the Royal Astronomical Society journal in early 2024. Once the paper is accepted, a link to the paper will be updated here providing a detailed description of the project.
+                        </p>
+                    </div>  
+                    <div class="button"> <a href="./research_details/agn/agn.html" class="read-more-button">Coming Soon</a></div>           
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

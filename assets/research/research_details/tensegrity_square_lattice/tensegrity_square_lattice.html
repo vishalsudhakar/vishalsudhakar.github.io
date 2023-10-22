@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Vishal Sudhakar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><a href="../../../../index.html">VISHAL SUDHAKAR</a></h1>
+            
+            <div class="mobile-menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="top-menu">
+                <li><a href="../../research.html" class="current-page">research</a></li>
+                <li><a href="../../../paintings/paintings.html">paintings</a></li>
+                <li><a href="../../../information/information.html">information</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="sub-section">
+                <div class="sub-section-content">
+                    <h2>RIGIDITY OF TENSEGRITY STRUCTURES - SQUARE LATTICE</h2>
+                    <h3>Project Under Dr. Zeb Rocklin</h3>
+
+                    <div class="parag1">
+                        <p>
+                            Many structures observed worldwide, from bridges to cell cytoskeletons, are composed of two categories of elements: linear and non-linear. 
+                            These systems fall under the class of mechanical structures known as tensegrities. Tensegrity structures consist of linear and two non-linear 
+                            elements, specifically Hookian springs, cables, and struts, respectively. In a pure linearly constrained system, the emergence of rigidity in 
+                            the bulk is predicted by Calladine’s extension of Maxwell's Count. The rigidity percolation transition considers the ability of a system to 
+                            support external loads and is geometric in nature due to the directional constraints of the edges. These transitions exhibit both first and 
+                            second-order characteristics. In this project, I played a pivotal role in developing an analytical model using methods from graph theory to 
+                            characterize the mechanical critical point, transition to full rigidity, and "avalanche" behavior of a square-backbone-lattice tensegrity.
+                            My particular focus was on two critical aspects: in-depth exploration of "avalanche" behavior and the extension of these findings to a generic 
+                            square lattice. <br><br>
+                            
+                            To mathematically represent the physical system, we utilized bi-partite graphs. In such graphs, there are two types of nodes, which we refer 
+                            to as row nodes and column nodes. A single square-backbone (pore) in the physical system has one row node and one column node in graph space. 
+                            The linear and non-linear elements within a pore are represented by bi-directional and unidirectional arrows, respectively. 
+                            Any row node and column node in the graph space can be connected by unidirectional arrows or bi-directional arrows. Naturally, a unidirectional 
+                            arrow can have two orientations, upstream or downstream from a node. The direction of such arrows is determined by the orientation of the non-linear 
+                            elements in the physical system. Below is an example of the mathematical representation of the physical system. In the bi-partite graph, clusters 
+                            begin to form when sets of row and column nodes form closed loops, as shown below. These clusters represent rigid areas in the physical system, 
+                            meaning that when a single pore is deformed, all the pores within the cluster deform equally. As elements are added to the system, a "giant" 
+                            cluster begins to form, as shown in the second image below. <br><br>
+                            
+                            </p>
+                            </div>
+                            <div class="figures">
+                              <div class="image-container">
+                                <div class="image-wrapper">
+                                  <img style="width: 90%;" src="./images/system-graph.pdf" alt="Image Description">
+                                </div>
+                                <div class="image-wrapper">
+                                  <img style="width: 100%;" src="./images/avalanche_example.pdf" alt="Image Description">
+                                </div>
+                                <div class="image-wrapper">
+                                  <img style="width: 80%;" src="./images/generic_system.pdf" alt="Image Description">
+                                </div>
+                              </div>
+                              <div class="caption"><p>The first image illustrates the mathematical graph theory representation of the physical square-backbone-lattice using 
+                                a bi-partite graph. When the loop is formed, the four squares (pores) are rigid. Hence, if any one of the pores is deformed, all four pores 
+                                deform equally. The second picture depicts two ideas. The "giant" cluster shown in green is a set of nodes connected together to form a loop. 
+                                Finally, the third image shows a generic square-backbone-lattice. Linear elements (rods) are represented in orange, while non-linear elements 
+                                (cables and struts) are shown in blue.</p></div>
+                            </div>
+                            <div class="parag2">
+                            <p>
+                            Tensegrity structures exhibit a remarkable behavior where adding a single non-linear element can instantly eliminate a significant number of 
+                            degrees of freedom, often referred to as "floppy modes." An example of such behavior in the mathematical graph space is shown above. The green 
+                            nodes represent a rigid subset ("giant" cluster) of the system. When the dashed arrow, indicating an addition of a non-linear element, is introduced, 
+                            the seven red nodes become part of the rigid subset, eliminating their degrees of freedom. Hence, we observe that a large part of the system initially 
+                            "floppy" can become rigid. We quantified the probability of 'avalanches' of specific sizes by employing graph theory techniques and analyzing the statistics 
+                            of node connections in a bi-partite graph. To tackle this complex challenge numerically, I meticulously crafted code using both 
+                            Mathematica and Python to quantify the probability of "avalanches" of various sizes, given specific initial conditions of the system. 
+                            This computational approach enabled a rigorous examination of the analytical probability model, to which I made significant contributions in its development. <br><br>
+                            
+                            In reality, most tensegrity systems don't always involve a square backbone. Hence, it was important to extend our results to generic systems. 
+                            An example of a generic square lattice is shown above. In such generic tensegrity systems, two conditions must be satisfied: first, the system 
+                            is rigid when non-linear elements are replaced with linear elements, and second, the state of the self-stress vector for the non-linear elements 
+                            must have a "proper" sign, indicating tension. I applied my understanding of linear algebra in abstract vector spaces and my programming skills to 
+                            measure the probability of rigidity for a generic square backbone lattice and thus determine its mechanical critical point. <br><br>
+                            
+                            A more detailed explanation of the methods and results can be found in our paper, which has been accepted in the PNAS journal with imminent publication. 
+                            A manuscript of the paper is already available on the arXiv database; follow the link below. The link will be later updated to the PNAS paper after publication.
+                            </p>
+                            
+                    </div>  
+                    <div class="button"> <a href="https://arxiv.org/pdf/2212.04004.pdf" class="read-more-button">View Paper</a></div>           
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
