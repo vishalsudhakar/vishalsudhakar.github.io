@@ -1,7 +1,7 @@
 /* style.css */
 
 body {
-    background-color:#F5F5F3;
+    background-color: #F5F5F3;
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -105,7 +105,7 @@ body {
 }
 
 .sub-section-content h2 {
-    font-size: 40px; /* Increase the font size */
+    font-size: 45px; /* Increase the font size */
     font-weight: 300; /* Make the text bold */
     color: #28282A; /* Change the text color if needed */
     margin: 10px;
@@ -115,24 +115,12 @@ body {
 .sub-section-content p {
     margin: 10px;
     margin-left: 0px;
-    margin-bottom: 50px;
-    line-height: 1.7;
-    font-size: 17px;
-}
-
-.link {
-    color: inherit;
-    position: relative;
-    text-decoration: none; 
-    content: "";
-    bottom: -1px; 
-    border-bottom: 1px solid;
 }
 
 .read-more-button {
     padding: 10px 20px;
-    background-color: #28282A;
-    color: #F5F5F3;
+    background-color: #28282A;;
+    color: #fff;
     text-decoration: none;
     border-radius: 20px;
     font-weight: 300;
@@ -141,7 +129,7 @@ body {
 
     /* Absolute positioning */
     position: absolute;
-    bottom: 10px; /* Adjust the distance from the bottom as needed */
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
     left: 20px; /* Adjust the distance from the left as needed */
 }
 
@@ -158,8 +146,8 @@ body {
     max-height: 500px;
     min-width: 300px;
     text-align: right;
-    margin-bottom: 0px;
-    margin-top: 150px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 img {
@@ -168,18 +156,14 @@ img {
     border-radius: 0%;
 }
 
-video {
-    width: 100%;
-    height: auto;
-    border-radius: 0%;
-}
 .section-divider {
     border: none;
     border-top: 1px solid #28282A;
     margin: 20px 0;
 }
 
-@media screen and (max-width: 1200px){
+
+@media screen and (max-width: 1200px) {
     .top-menu {
         display: none;
         flex-direction: column;
@@ -208,27 +192,23 @@ video {
     }
 
     .sub-section-content h2 {
-        font-size: 25px; /* Reduce font size */
+        font-size: 24px; /* Reduce font size */
         text-align: center; /* Center the title */
     }
 
     .sub-section-content p {
         text-align: center; /* Center the description */
-        line-height: 1.5;
     }
 
-    .image-container {
+    .sub-section-image {
+        padding: 20px 0; /* Adjust spacing */
         text-align: center; /* Center the image */
-        width: 700px;
-        height: 700px;
-        padding: 0px;
-        margin-top: 0;
     }
 
     .read-more-button {
         position: static; /* Remove absolute positioning */
         margin-top: 10px; /* Add margin for separation */
-        text-align: top; /* Center the button */
+        text-align: center; /* Center the button */
     }
 
     /* functions for subsection end*/
