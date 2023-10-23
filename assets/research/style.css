@@ -218,6 +218,7 @@ video {
     }
 
     .image-container {
+        display: none;
         text-align: center; /* Center the image */
         width: 700px;
         height: 700px;
