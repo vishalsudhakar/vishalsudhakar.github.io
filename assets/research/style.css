@@ -213,15 +213,15 @@ video {
     }
 
     .sub-section-content p {
-        text-align: center; /* Center the description */
-        line-height: 1.5;
+        text-align: left; /* Center the description */
+        line-height: 1.6;
     }
 
     .image-container {
-        display: none;
+        display: flex;
         text-align: center; /* Center the image */
-        width: 700px;
-        height: 700px;
+        width: 60vw;
+        height: 50vh;
         padding: 0px;
         margin-top: 0;
     }
