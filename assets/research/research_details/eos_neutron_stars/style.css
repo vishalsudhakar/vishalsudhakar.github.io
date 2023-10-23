@@ -2,7 +2,7 @@
 
 body {
     background-color: #F5F5F3;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Slab', sans-serif;
     margin: 0;
     padding: 0;
     color: #1c1c1d;
@@ -128,6 +128,7 @@ body {
 }
 
 .figures {
+    width: 100%;
     text-align: center;
     line-height: 20px;
     margin-bottom: 10px;
@@ -177,8 +178,9 @@ body {
 }
 
 .image-wrapper {
-    width: 450px;
+    width: 100%;
     height: auto;
+    max-width: 600px;
     margin: 0px; /* Reset the margins */
 }
 
@@ -260,13 +262,28 @@ img {
         display: flex;
     }
 
+    .figures{
+        width: 100%;
+    }
+
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 33vh;
+        margin-bottom: 5vh;
+    }
+
     .top-menu li {
         margin: 0;
         margin-top: 5%;
         margin-bottom: 5%;
+        align-items: center;
         text-align: center;
     }
-
     .top-menu a {
         font-size: 24px;
         color: inherit;

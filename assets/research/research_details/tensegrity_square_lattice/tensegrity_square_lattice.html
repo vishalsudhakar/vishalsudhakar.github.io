@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -19,9 +19,11 @@
                 <div class="bar"></div>
             </div>
             <ul class="top-menu">
-                <li><a href="../../research.html" class="current-page">research</a></li>
-                <li><a href="../../../paintings/paintings.html">paintings</a></li>
-                <li><a href="../../../information/information.html">information</a></li>
+                <div class="menu-list">
+                    <li><a href="../../research.html" class="current-page">research</a></li>
+                    <li><a href="../../../paintings/paintings.html">paintings</a></li>
+                    <li><a href="../../../information/information.html">information</a></li>
+                </div>
             </ul>
         </div>
 
@@ -58,16 +60,16 @@
                             <div class="figures">
                               <div class="image-container">
                                 <div class="image-wrapper">
-                                  <img style="width: 90%;" src="./images/system-graph.pdf" alt="Image Description">
+                                  <img style="width: 70%;" src="./images/system-graph.png" alt="Image Description">
                                 </div>
                                 <div class="image-wrapper">
-                                  <img style="width: 100%;" src="./images/avalanche_example.pdf" alt="Image Description">
+                                  <img style="width: 120%;" src="./images/avalanche_example.png" alt="Image Description">
                                 </div>
                                 <div class="image-wrapper">
-                                  <img style="width: 80%;" src="./images/generic_system.pdf" alt="Image Description">
+                                  <img style="width: 70%;" src="./images/generic_system.png" alt="Image Description">
                                 </div>
                               </div>
-                              <div class="caption"><p>The first image illustrates the mathematical graph theory representation of the physical square-backbone-lattice using 
+                              <div style="width: 100%;" class="caption"><p>The first image illustrates the mathematical graph theory representation of the physical square-backbone-lattice using 
                                 a bi-partite graph. When the loop is formed, the four squares (pores) are rigid. Hence, if any one of the pores is deformed, all four pores 
                                 deform equally. The second picture depicts two ideas. The "giant" cluster shown in green is a set of nodes connected together to form a loop. 
                                 Finally, the third image shows a generic square-backbone-lattice. Linear elements (rods) are represented in orange, while non-linear elements 
